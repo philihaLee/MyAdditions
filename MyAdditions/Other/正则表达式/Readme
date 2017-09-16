@@ -1,0 +1,3 @@
+1> 由于是MRC的分类,用的时候,在编译(Compile Sources)后面加上   -fno-objc-arc
+2> 在Link Binary With Libraries 中加入 libicucore.tbd
+3> HelperUtil  是别人写好了的正则表达式..拿来用就好了  -_-
